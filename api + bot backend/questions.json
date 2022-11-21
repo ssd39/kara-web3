@@ -1,0 +1,34 @@
+{
+    "data":[
+        {
+            "qid":"pcos",
+            "aid":"pcos_0",
+            "q":"In polycystic ovary syndrome, estrogen levels are elevated, increasing the risk of which of the following?",
+            "a":"Metabolic syndrome",
+            "b":"Endometrial cancer",
+            "c":"Hirsutism",
+            "d":"Hypertension",
+            "ans":"b"
+        },
+        {
+            "qid":"pcos",
+            "aid":"pcos_1",
+            "q":"Acanthosis nigricans (areas of thickened, darkened skin), a symptom of polycystic ovary syndrome, is caused by which of the following?",
+            "a":"Increased serum estrogen levels",
+            "b":"Increased serum progesterone levels",
+            "c":"Insulin resistance",
+            "d":"Obesity",
+            "ans":"c"
+        },
+        {
+            "qid":"pcos",
+            "aid":"pcos_2",
+            "q":"Which of the following makes polycystic ovary syndrome an unlikely diagnosis?",
+            "a":"Hyperinsulinemia",
+            "b":"Normal BMI",
+            "c":"Premature adrenarche",
+            "d":"Regular menses for a time after menarche",
+            "ans":"d"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "componies":{
+        "0":{
+            "name":"BeautyXyz"
+        },
+        "1":{
+            "name":"Kara"
+        },
+        "2":{
+            "name":"Tech Xyz"
+        }
+    },
+    "offers":{
+        "0": {
+            "name": "shampoo",
+            "url":"/shampoo.png"
+         },
+         "1":{
+             "name":"Soap",
+             "url":"/soap.png"
+         },
+         "2":{
+             "name":"Make Up",
+             "url":"/makeup.png"
+         },
+         "3":{
+            "name":"Free session Cupons",
+            "url":"/cupon.png"
+        },
+        "4":{
+            "name":"Women In Tech Swag",
+            "url":"/swag.png"
+        }
+    }
+}

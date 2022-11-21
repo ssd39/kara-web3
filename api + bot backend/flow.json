@@ -1,0 +1,268 @@
+{
+    "get_started": [
+        {
+            "text":"Hello,\nWelcome to \"Kara - Learn To Earn(L2E) Bot\".\nOnly learn to earn and educate to earn bot in Web3.\n\nPowered By NEAR"
+        },
+        {
+            
+            "template_type":"button",
+            "text":"Follwoing are list of things you can learn today and earn.",
+            "buttons":[
+                {
+                    "type": "postback",
+                    "title": "PCOS",
+                    "payload": "pcos_postback1"
+                }
+            ]
+        }
+    ],
+    "pcos_postback1":[
+        {
+            "text":"Polycystic ovary syndrome (PCOS), also known as polycystic ovarian syndrome, is a common health problem caused by an imbalance of reproductive hormones."
+        },
+        {
+            "text":"The hormonal imbalance creates problems in the ovaries. The ovaries make the egg that is released each month as part of a healthy menstrual cycle. With PCOS, the egg may not develop as it should or it may not be released during ovulation as it should be."
+        },
+        {
+            "text":"PCOS can cause missed or irregular menstrual periods. Irregular periods can lead to:\n• Infertility (inability to get pregnant). In fact, PCOS is one of the most common causes of infertility in women.\n• Development of cysts (small fluid-filled sacs) in the ovaries"
+        },
+        {
+            
+            "template_type":"button",
+            "text":"Follwoing are list of question you can ask me.",
+            "buttons":[
+                {
+                    "type": "postback",
+                    "title": "Who gets PCOS?",
+                    "payload": "pcos_postback2"
+                },
+                {
+                    "type": "postback",
+                    "title": "What causes PCOS?",
+                    "payload": "pcos_postback3"
+                },
+                {
+                    "type": "postback",
+                    "title": "Symptoms of PCOS?",
+                    "payload": "pcos_postback4"
+                }
+            ]
+        },
+        {
+            "template_type":"button",
+            "text":".",
+            "buttons":[
+                {
+                    "type": "postback",
+                    "title": "PCOS treatment?",
+                    "payload": "pcos_postback5"
+                },
+                {
+                    "type": "postback",
+                    "title": "Video on topic",
+                    "payload": "pcos_postback6"
+                },
+                {
+                    "type": "postback",
+                    "title": "Take quiz - earn tokens",
+                    "payload": "quiz:pcos"
+                }
+            ]
+        }
+    ],
+    "pcos_common_button":[
+        {
+            "template_type":"button",
+            "text":"Next?",
+            "buttons":[
+                {
+                    "type": "postback",
+                    "title": "Who gets PCOS?",
+                    "payload": "pcos_postback2"
+                },
+                {
+                    "type": "postback",
+                    "title": "What causes PCOS?",
+                    "payload": "pcos_postback3"
+                },
+                {
+                    "type": "postback",
+                    "title": "Symptoms of PCOS?",
+                    "payload": "pcos_postback4"
+                }
+            ]    
+        },
+        {
+            "template_type":"button",
+            "text":".",
+            "buttons":[
+                {
+                    "type": "postback",
+                    "title": "PCOS treatment?",
+                    "payload": "pcos_postback5"
+                },
+                {
+                    "type": "postback",
+                    "title": "Video on topic",
+                    "payload": "pcos_postback6"
+                },
+                {
+                    "type": "postback",
+                    "title": "Take quiz - earn tokens",
+                    "payload": "quiz:pcos"
+                }
+            ]
+        }
+    ],
+    "pcos_postback2":[
+        {
+            
+            "template_type":"button",
+            "text":"Who gets PCOS?",
+            "buttons":[
+                {
+                    "type": "postback",
+                    "title": "All young womens",
+                    "payload": "pcos_postback2_ans2"
+                },
+                {
+                    "type": "postback",
+                    "title": "Age between 15 to 44",
+                    "payload": "pcos_postback2_ans1"
+                }
+            ]
+        }
+    ],
+    "pcos_postback2_ans1":[
+        {
+            "text":"Yes,\nBetween 5% and 10% of women between 15 and 44, or during the years you can have children, have PCOS. Most women find out they have PCOS in their 20s and 30s, when they have problems getting pregnant and see their doctor. But PCOS can happen at any age after puberty."
+        },
+        {
+            "template_type":"refrence",
+            "refrence":"pcos_common_button"
+        }
+    ],
+    "pcos_postback2_ans2":[
+        {
+            "text":"No,\nBetween 5% and 10% of women between 15 and 44, or during the years you can have children, have PCOS. Most women find out they have PCOS in their 20s and 30s, when they have problems getting pregnant and see their doctor. But PCOS can happen at any age after puberty."
+        },
+        {
+            "template_type":"refrence",
+            "refrence":"pcos_common_button"
+        }
+    ],
+    "pcos_postback3":[
+        {
+            
+            "template_type":"button",
+            "text":"What causes PCOS?",
+            "buttons":[
+                {
+                    "type": "postback",
+                    "title": "Androgens & Insulin",
+                    "payload": "pcos_postback3_ans1"
+                },
+                {
+                    "type": "postback",
+                    "title": "Prolactin & Luteinizing",
+                    "payload": "pcos_postback3_ans2"
+                }
+            ]
+        }
+    ],
+    "pcos_postback3_ans1":[
+        {
+            "text":"Yes, The exact cause of PCOS is not known. Most experts think that several factors, including genetics, play a role:"
+        },
+        {
+            "text":"High levels of androgens: Androgens are sometimes called \"male hormones\", although all women make small amounts of androgens. Androgens control the development of male traits, such as male-pattern baldness. Women with PCOS have more androgens than normal. Higher than normal androgen levels in women can prevent the ovaries from releasing an egg (ovulation) during each menstrual cycle, and can cause extra hair growth and acne, two signs of PCOS."
+        },
+        {
+            "text":"High levels of insulin: Insulin is a hormone that controls how the food you eat is changed into energy. Insulin resistance is when the body's cells do not respond normally to insulin. As a result, your insulin blood levels become higher than normal. Many women with PCOS have insulin resistance, especially those who have overweight or obesity, have unhealthy eating habits, do not get enough physical activity, and have a family history of diabetes (usually type 2 diabetes). Over time, insulin resistance can lead to type 2 diabetes."
+        },
+        {
+            "template_type":"refrence",
+            "refrence":"pcos_common_button"
+        }
+    ],
+    "pcos_postback3_ans2":[
+        {
+            "text":"No, The exact cause of PCOS is not known. Most experts think that several factors, including genetics, play a role:"
+        },
+        {
+            "text":"High levels of androgens: Androgens are sometimes called \"male hormones\", although all women make small amounts of androgens. Androgens control the development of male traits, such as male-pattern baldness. Women with PCOS have more androgens than normal. Higher than normal androgen levels in women can prevent the ovaries from releasing an egg (ovulation) during each menstrual cycle, and can cause extra hair growth and acne, two signs of PCOS."
+        },
+        {
+            "text":"High levels of insulin: Insulin is a hormone that controls how the food you eat is changed into energy. Insulin resistance is when the body's cells do not respond normally to insulin. As a result, your insulin blood levels become higher than normal. Many women with PCOS have insulin resistance, especially those who have overweight or obesity, have unhealthy eating habits, do not get enough physical activity, and have a family history of diabetes (usually type 2 diabetes). Over time, insulin resistance can lead to type 2 diabetes."
+        },
+        {
+            "template_type":"refrence",
+            "refrence":"pcos_common_button"
+        }
+    ],
+    "pcos_postback4":[
+        {
+            "text":"• Irregular menstrual cycle. Women with PCOS may miss periods or have fewer periods (fewer than eight in a year). Or, their periods may come every 21 days or more often. Some women with PCOS stop having menstrual periods."
+        },
+        {
+            "text":"• Too much hair on the face, chin, or parts of the body where men usually have hair. This is called \"hirsutism\" Hirsutism affects up to 70% of women with PCOS."
+        },
+        {
+            "text":"• Acne on the face, chest, and upper back"
+        },
+        {
+            "text":"• Thinning hair or hair loss on the scalp; male-pattern baldness"
+        },
+        {
+            "text":"• Weight gain or difficulty losing weight"
+        },
+        {
+            "text":"• Darkening of skin, particularly along neck creases, in the groin, and underneath breasts"
+        },
+        {
+            "text":"• Skin tags, which are small excess flaps of skin in the armpits or neck area"
+        },
+        {
+            "template_type":"refrence",
+            "refrence":"pcos_common_button"
+        }
+    ],
+    "pcos_postback5":[
+        {
+            
+            "template_type":"button",
+            "text":"There is no cure for PCOS, but you can manage the symptoms of PCOS. You and your doctor will work on a treatment plan based on your symptoms, your plans for having children, and your risk of long-term health problems such as diabetes and heart disease. Many women will need a combination of treatments, including:",
+            "buttons":[
+                {
+                    "type": "web_url",
+                    "title": "Homeready",
+                    "url": "https://www.womenshealth.gov/a-z-topics/polycystic-ovary-syndrome#9"
+                },
+                {
+                    "type": "web_url",
+                    "title": "Medicines",
+                    "url": "https://www.womenshealth.gov/a-z-topics/polycystic-ovary-syndrome#10"
+                }
+            ]
+        },
+        {
+            "template_type":"refrence",
+            "refrence":"pcos_common_button"
+        }
+    ],
+    "pcos_postback6":[
+        {
+            "template_type": "media",
+            "elements": [
+               {
+                  "media_type": "video",
+                  "url": "https://www.facebook.com/MountSinaiNYC/videos/5456100661169967/"
+               }
+            ]
+        },
+        {
+            "template_type":"refrence",
+            "refrence":"pcos_common_button"
+        }
+    ]
+}
